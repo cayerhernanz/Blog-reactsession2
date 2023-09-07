@@ -20,6 +20,6 @@
 
 .link_page{
     &_active{
-        text-decoration: underline solid $color-secondary;
+        border-bottom: solid 3px $color-secondary;
     }
 }
