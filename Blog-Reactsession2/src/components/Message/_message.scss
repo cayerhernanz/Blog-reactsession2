@@ -1,0 +1,12 @@
+@import '../../scss/main';
+
+.message{
+    @include flex(row, space-between, center);
+    padding: 10px;
+    gap: 10px;
+    &__content{
+        width: 70%;
+        background-color: $color-tertiary;
+        padding: 5px;
+    }
+}

@@ -1,0 +1,45 @@
+@import "../../scss/main";
+
+.article{
+    display: none;
+}
+
+.article__blog{
+    background-color: $color-background;
+    @include flex(row, space-between, center);
+    padding: 2px;
+    &__image{
+        background-color: $color-secondary;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+    &__content{
+        width: 70%;
+    }
+    &__actions{
+        width: 20%;
+        @include flex(column, center, center);
+        gap: 5px;
+    }
+}
+
+.article__homepage{
+    background-color: $color-background;
+    @include flex(row, space-between, center);
+    padding: 2px;
+    border: solid 2px transparent;
+    &__image{
+        background-color: $color-secondary;
+        width: 30px;
+        height: 30px;
+        margin: 10px;
+    }
+    &__content{
+        width: 70%;
+    }
+    &:hover{
+        cursor: pointer;
+        border: 2px solid $color-secondary;
+    }
+}

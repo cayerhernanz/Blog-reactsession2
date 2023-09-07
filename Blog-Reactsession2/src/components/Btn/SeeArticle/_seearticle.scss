@@ -1,0 +1,19 @@
+@import '../../../scss/main';
+
+.seearticle{
+    background-color: $color-tertiary;
+    border: solid 2px transparent;
+    width: 75%;
+    height: 45%;
+    p{
+        text-align: center;
+        font-weight: 400;
+    }
+    &:hover{
+        cursor: pointer;
+        border: solid 2px $color-secondary;
+        p{
+            font-weight: 700;
+        }
+    }
+}

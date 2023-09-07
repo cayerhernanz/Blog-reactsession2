@@ -1,0 +1,25 @@
+@import "../../scss/main";
+
+.header{
+    padding: 30px;
+    nav{
+        width: auto;
+        @include flex(row, center, center);
+        font-size: 24px;
+        gap: 100px;
+        a{
+            padding: 15px;
+            text-decoration: none;
+            &:hover{
+            font-weight: bold;
+            color: $color-secondary;
+            }
+        }
+    }
+}
+
+.link_page{
+    &_active{
+        text-decoration: underline solid $color-secondary;
+    }
+}

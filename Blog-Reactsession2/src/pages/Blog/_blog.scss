@@ -1,0 +1,19 @@
+@import "../../scss/main";
+
+.blog{
+    padding: 2px;
+    &__box{
+        &__list{
+            height: 365px;
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 10px;
+            padding: 3px;
+            overflow: scroll;
+        }
+    }
+    &__form{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}

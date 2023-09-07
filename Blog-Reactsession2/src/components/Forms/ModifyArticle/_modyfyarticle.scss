@@ -1,0 +1,14 @@
+@import "../../../scss/main";
+
+.modifyarticle{
+    background-color: $color-primary;
+    border-radius: 25px;
+    @include flex(column, center, center);
+    form{
+        padding: 30px;
+        @include flex(column, flex-start, flex-start);
+        input{
+            height: 30px;
+        }
+    }
+}

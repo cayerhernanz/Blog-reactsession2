@@ -1,0 +1,11 @@
+@import '../../scss/main';
+
+.messagepage{
+    &__message{
+        background-color: $color-background;
+        &__field{
+            @include flex(row, flex-start, center);
+            gap: 20px;
+        }
+    }
+}

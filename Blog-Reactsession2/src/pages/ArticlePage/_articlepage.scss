@@ -1,0 +1,18 @@
+@import "../../scss/main";
+
+.articlepage{
+    background-color: $color-background;
+    h2{
+        border-bottom: 4px solid $color-primary;
+        padding: 3px;
+    }
+    &__content{
+        h3{
+            text-transform: uppercase;
+            padding-left: 5px;
+        }
+        &__body{
+            padding: 5px 5px 35px 5px;
+        }
+    }
+}

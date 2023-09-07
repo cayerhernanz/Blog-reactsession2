@@ -1,0 +1,27 @@
+@import "../../scss/main";
+
+.home{
+    h2{
+        font-size: 20px;
+        font-weight: 500;
+        color: $color-secondary;
+    }
+    &__messages{
+        margin-bottom: 10px;
+        &__box{
+            padding: 10px;
+            background-color: $color-background;
+            @include flex(row, space-between, center);
+            gap: 25px;
+            h2{
+                color: $color-typography;
+            }
+            &__list{
+                width: 60%;
+            }
+            &__form{
+                width: 40%;
+            }
+        }
+    }
+}

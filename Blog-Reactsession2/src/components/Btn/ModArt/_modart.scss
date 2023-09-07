@@ -1,0 +1,19 @@
+@import "../../../scss/main";
+
+.modart{
+    background-color: $color-secondary;
+    border: solid 2px transparent;
+    width: 75%;
+    height: 45%;
+    p{
+        text-align: center;
+        font-weight: 400;
+    }
+    &:hover{
+        cursor: pointer;
+        border: solid 2px $color-primary;
+        p{
+            font-weight: 700;
+        }
+    }
+}

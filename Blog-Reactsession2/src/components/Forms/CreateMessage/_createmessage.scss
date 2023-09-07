@@ -1,0 +1,17 @@
+@import '../../../scss/main';
+
+.newmessage{
+    background-color: $color-tertiary;
+    height: 90%;
+    form{
+        padding: 10px;
+        @include flex(column, center, center);
+        label{
+            justify-content: flex-start;
+            width: 100%;
+        }
+        input{
+            width: 100%;
+        }
+    }
+}
